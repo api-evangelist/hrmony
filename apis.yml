@@ -1,7 +1,19 @@
 aid: hrmony
 name: Hrmony
-description: Hrmony is a company surfaced as a portfolio company of techstars and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Hrmony is a Berlin-based employee-benefits platform that lets German employers
+  offer modern, tax-advantaged perks to their staff — meal allowances
+  (Essenszuschuss), the 50 euro monthly non-cash benefit (Sachbezug) and benefit
+  card, mobility and public-transit budgets, health and recreation benefits,
+  internet-cost subsidies and digital gifts — all managed through an admin
+  portal and employee app with built-in payroll and tax compliance. Its Hrmony
+  Embedded product exposes this benefits infrastructure as a white-label RESTful
+  API so software platforms and SaaS providers can integrate multiple benefit
+  modules without building the tax-compliance, operations or regulatory layer
+  in-house. Hrmony is backed by Techstars. This API Evangelist profile was
+  enriched from the company's public web surface; no public developer
+  documentation or OpenAPI is currently published (Embedded onboarding is
+  partner-gated).
 url: https://raw.githubusercontent.com/api-evangelist/hrmony/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,11 +21,31 @@ x-backed-by:
 - techstars
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
+image: https://cdn.prod.website-files.com/6092b41cde24456da25874a9/654b801b795cf897285a6503_hrmony-benefits.png
 tags:
 - Company
+- Human Resources
+- Employee Benefits
+- HR Tech
+- Payroll
+- Compensation
+- Fintech
+- Embedded Finance
+- Germany
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +55,26 @@ maintainers:
 common:
 - type: Website
   url: https://hrmony.de/
+- type: Embedded
+  url: https://www.hrmony.de/de/embedded
+- type: Pricing
+  url: https://www.hrmony.de/preise
+- type: Blog
+  url: https://www.hrmony.de/blog
+- type: Support
+  url: https://hrmony.zendesk.com/hc/de
+- type: PrivacyPolicy
+  url: https://www.hrmony.de/datenschutz
+- type: Login
+  url: https://app.hrmony.de/login
+- type: GitHubOrganization
+  url: https://github.com/hrmony
+- type: LLMsTxt
+  url: llms/hrmony-llms.txt
+- type: DomainSecurity
+  url: security/hrmony-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

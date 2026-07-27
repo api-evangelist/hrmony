@@ -1,0 +1,19 @@
+generated: '2026-07-19'
+method: searched
+source: live probes of https://www.hrmony.de/.well-known/*
+host: https://www.hrmony.de
+note: >-
+  No /.well-known/ discovery documents are published. hrmony.de redirects the
+  apex to www; every probed path returned 404 on the www host. Recorded as
+  honest negative data — no WellKnown pointer is wired because no catalog exists.
+documents:
+- path: /.well-known/security.txt
+  status: 404
+- path: /.well-known/openid-configuration
+  status: 404
+- path: /.well-known/oauth-authorization-server
+  status: 404
+- path: /.well-known/api-catalog
+  status: 404
+- path: /.well-known/ai-plugin.json
+  status: 404
